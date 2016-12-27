@@ -1,0 +1,753 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Milano\n"
+"POT-Creation-Date: 2015-02-10 17:49+0700\n"
+"PO-Revision-Date: 2015-02-10 17:49+0700\n"
+"Last-Translator: Kostiantyn Iatseniuk <kot@cult-f.net>\n"
+"Language-Team: Themoholics <mail@themoholics.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-KeywordsList: _;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:30
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:31
+msgid "The page you are trying to reach can't be found"
+msgstr ""
+
+#: 404.php:32
+msgid "back to home"
+msgstr ""
+
+#: classes/Admin/Theme/Element/AudioUploader.php:26
+#: classes/Admin/Theme/Element/File.php:42
+#: classes/Admin/Theme/Element/File/Favicon.php:35
+msgid "Upload"
+msgstr ""
+
+#: classes/Admin/Theme/Element/ImageUploader.php:58
+msgid "Add"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Portfolio.php:162
+msgid "Portfolios"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Portfolio.php:163
+msgid "Portfolio Posts"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Portfolio.php:164
+#: classes/shortcode/shortcodes/portfolio.php:10
+#: classes/shortcode/shortcodes/portfolio.php:27
+msgid "Portfolio"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Portfolio.php:165
+#: classes/Custom/Posts/Type/Slideshow.php:166
+#: classes/Custom/Posts/Type/Testimonial.php:165
+msgid "Add New"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Portfolio.php:182
+msgid "Portfolio Categories"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Portfolio.php:183
+msgid "Portfolio Category"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Slideshow.php:163
+msgid "Slideshows"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Slideshow.php:164
+msgid "Slideshow Posts"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Slideshow.php:165
+msgid "Slideshow"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Slideshow.php:183
+msgid "Slideshow Categories"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Slideshow.php:184
+msgid "Slideshow Category"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Testimonial.php:162
+msgid "Testimonials"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Testimonial.php:163
+msgid "Testimonial Posts"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Testimonial.php:164
+msgid "Testimonial"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Testimonial.php:182
+msgid "Testimonial Categories"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Testimonial.php:183
+msgid "Testimonial Category"
+msgstr ""
+
+#: classes/Import/Importer.php:275
+msgid "Assign Authors"
+msgstr ""
+
+#: classes/Import/Importer.php:276
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: classes/Import/Importer.php:288
+msgid "Import Attachments"
+msgstr ""
+
+#: classes/Import/Importer.php:291
+msgid "Download and import file attachments"
+msgstr ""
+
+#: classes/Import/Importer.php:308
+msgid "Import author:"
+msgstr ""
+
+#: classes/Import/Importer.php:319
+msgid "or create new user with login name:"
+msgstr ""
+
+#: classes/Import/Importer.php:322
+msgid "as a new user:"
+msgstr ""
+
+#: classes/Import/Importer.php:330
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: classes/Import/Importer.php:332
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: classes/Import/Importer.php:777
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:42
+#: classes/shortcode/shortcodes/contactForm.php:126
+msgid "Name"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:45
+msgid "E-Mail"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:48
+msgid "Type your message here"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:91 classes/Widget/FeedburnerEmail.php:74
+#: classes/Widget/Flickr.php:69 classes/Widget/Gallery.php:99
+#: classes/Widget/PopularPosts.php:116 classes/Widget/RecentPosts.php:106
+#: classes/Widget/Tag/Cloud.php:99 classes/Widget/Testimonial.php:122
+#: classes/Widget/Twitter.php:187
+msgid "Title:"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:95 classes/Widget/FeedburnerEmail.php:78
+msgid "Description:"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:99
+msgid "Recipient email:"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:103 classes/Widget/FeedburnerEmail.php:86
+msgid "Button text:"
+msgstr ""
+
+#: classes/Widget/FeedburnerEmail.php:45
+msgid "Your E-Mail"
+msgstr ""
+
+#: classes/Widget/FeedburnerEmail.php:82
+msgid "Write only feedburner name:"
+msgstr ""
+
+#: classes/Widget/Flickr.php:77
+msgid "Number of photos:"
+msgstr ""
+
+#: classes/Widget/Flickr.php:83
+msgid "Flickr ID"
+msgstr ""
+
+#: classes/Widget/Gallery.php:105
+msgid "Category of gallery:"
+msgstr ""
+
+#: classes/Widget/Gallery.php:129
+msgid "Number of items to show:"
+msgstr ""
+
+#: classes/Widget/Menu.php:77
+msgid "Select Menu:"
+msgstr ""
+
+#: classes/Widget/PopularPosts.php:120 classes/Widget/RecentPosts.php:110
+msgid "Number of posts to show:"
+msgstr ""
+
+#: classes/Widget/SocialLinks.php:106
+msgid "Use black color scheme:"
+msgstr ""
+
+#: classes/Widget/Tag/Cloud.php:101
+msgid "Taxonomy:"
+msgstr ""
+
+#: classes/Widget/Testimonial.php:128
+#: classes/shortcode/shortcodes/testimonial.php:31
+msgid "Category of testimonials:"
+msgstr ""
+
+#: classes/Widget/Testimonial.php:148
+#: classes/shortcode/shortcodes/testimonial.php:45
+msgid "Number of second to show:"
+msgstr ""
+
+#: classes/Widget/Testimonial.php:152
+msgid "Randomize testimonial:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:192
+msgid "Twitter username:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:197
+msgid "Number of tweets:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:202
+msgid "Show date posted:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:207
+msgid "Discover hyperlinks:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:212
+msgid "Discover @replies:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:217
+msgid "UTF8 Encode:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:222
+msgid "Open in new tab:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:10
+msgid "Insert Button"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:177
+#: classes/shortcode/shortcodes/social_link.php:285
+msgid "Buttons"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:182
+#: classes/shortcode/shortcodes/social_link.php:290
+msgid "Type of button:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:183
+#: classes/shortcode/shortcodes/notifications.php:82
+#: classes/shortcode/shortcodes/social_link.php:291
+msgid "Choose a type:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:185
+#: classes/shortcode/shortcodes/notifications.php:84
+#: classes/shortcode/shortcodes/social_link.php:293
+msgid "Select type"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:186
+msgid "small button"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:187
+msgid "middle button black"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:188
+msgid "large color button"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:189
+msgid "xlarge color button"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:193
+#: classes/shortcode/shortcodes/social_link.php:328
+msgid "URL for button:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:194
+#: classes/shortcode/shortcodes/social_link.php:329
+msgid "Type your URL here:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:198
+#: classes/shortcode/shortcodes/social_link.php:333
+msgid "Link target:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:199
+msgid "Check if you want open in new window:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:214
+#: classes/shortcode/shortcodes/notifications.php:93
+#: classes/shortcode/shortcodes/social_link.php:338
+msgid "Preview:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/buttons.php:220
+#: classes/shortcode/shortcodes/notifications.php:100
+#: classes/shortcode/shortcodes/portfolio.php:86
+#: classes/shortcode/shortcodes/social_button.php:396
+#: classes/shortcode/shortcodes/social_link.php:345
+msgid "Insert"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:10
+msgid "Contact form"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:110
+msgid "Your new field was saved successfully"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:116
+msgid "Edit this new field"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:118
+msgid "Label"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:119
+msgid "New field"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:121
+msgid "Field type"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:123
+msgid "Checkbox"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:124
+msgid "Drop down"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:125
+msgid "Email"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:127
+msgid "Radio"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:128
+msgid "Text"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:129
+msgid "Textarea"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:130
+msgid "Website"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:136
+msgid "Options"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:137
+msgid "First option"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:140
+msgid "Add another option"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:147
+msgid "Required?"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:153
+msgid "Use for reply?"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:158
+msgid "Save this field"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:163
+msgid "Here's what your form will look like"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:168
+msgid "Add a new field"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:176
+msgid "Add this form to my post"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:179
+msgid "Email settings"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:181
+msgid "Enter your email address"
+msgstr ""
+
+#: classes/shortcode/shortcodes/contactForm.php:184
+msgid "What should the subject line be?"
+msgstr ""
+
+#: classes/shortcode/shortcodes/notifications.php:9
+msgid "Insert Notification"
+msgstr ""
+
+#: classes/shortcode/shortcodes/notifications.php:76
+msgid "Notification"
+msgstr ""
+
+#: classes/shortcode/shortcodes/notifications.php:81
+msgid "Type of notification:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/notifications.php:85
+msgid "Successful"
+msgstr ""
+
+#: classes/shortcode/shortcodes/notifications.php:86
+msgid "Error"
+msgstr ""
+
+#: classes/shortcode/shortcodes/notifications.php:87
+msgid "Warning"
+msgstr ""
+
+#: classes/shortcode/shortcodes/notifications.php:88
+msgid "Info"
+msgstr ""
+
+#: classes/shortcode/shortcodes/portfolio.php:32
+msgid "Portfolio category:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/portfolio.php:33
+msgid "Choose a category:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/portfolio.php:43
+msgid "columns:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/portfolio.php:44
+msgid "count:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:9
+msgid "Insert Share Buttons"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:249
+msgid "Size:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:250
+msgid "Choose a size:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:252
+msgid "Small (15px)"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:253
+msgid "Standard(24px)"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:254
+msgid "Medium(20px)"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:255
+msgid "Tall(60px)"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:260
+msgid "Type of Annotation:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:261
+msgid "Choose a Annotation:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:263
+msgid "Inline"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:264
+msgid "Bubble"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:265
+#: classes/shortcode/shortcodes/social_button.php:283
+msgid "None"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:269
+msgid "Advanced options:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:270
+msgid "HTML5 valid syntax:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:273
+msgid "URL to +1:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:280
+msgid "Count box position:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:281
+msgid "Choose a Position:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:284
+#: classes/shortcode/shortcodes/social_button.php:382
+msgid "Horizontal"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:285
+#: classes/shortcode/shortcodes/social_button.php:383
+msgid "Vertical"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:289
+msgid "Button size:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:290
+msgid "Large:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:294
+msgid "URL of the page to share:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:295
+msgid "URL(default: URL of the webpage):"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:300
+msgid "Recommended accounts:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:306
+msgid "Via user:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:312
+msgid "Default Tweet text:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:313
+#: classes/shortcode/shortcodes/social_button.php:389
+msgid "Text:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:322
+msgid "URL to Like:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:323
+#: classes/shortcode/shortcodes/social_button.php:370
+#: classes/shortcode/shortcodes/social_button.php:375
+msgid "URL:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:327
+#: classes/shortcode/shortcodes/social_button.php:328
+msgid "Send Button:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:332
+msgid "Layout Style:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:333
+#: classes/shortcode/shortcodes/social_button.php:380
+msgid "Choose a Layout:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:335
+msgid "Standard"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:336
+msgid "Button Count"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:337
+msgid "Box Count"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:341
+#: classes/shortcode/shortcodes/social_button.php:342
+msgid "Width:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:346
+msgid "Show profile picture:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:347
+msgid "Show Faces:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:351
+msgid "Verb to display"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:352
+msgid "Choose a Verb:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:354
+msgid "Like"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:355
+msgid "Recommend"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:359
+msgid "Color Scheme "
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:360
+msgid "Choose a Scheme:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:362
+msgid "Light"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:363
+msgid "Dark"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:369
+msgid "Page the pin is on:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:374
+msgid "Image to be pinned:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:379
+msgid "Pin Count:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:384
+msgid "No Count"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_button.php:388
+msgid "What they're pinning:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_link.php:10
+msgid "Insert Social Link"
+msgstr ""
+
+#: classes/shortcode/shortcodes/social_link.php:334
+msgid "Check if you want open in new window1:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/testimonial.php:27
+msgid "Testimonials options:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/testimonial.php:28
+msgid "Testimonials title:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/testimonial.php:34
+msgid "All"
+msgstr ""
+
+#: classes/shortcode/shortcodes/toggle.php:27
+msgid "Title of toggle:"
+msgstr ""
+
+#: classes/shortcode/shortcodes/toggle.php:28
+msgid "Type toggle title:"
+msgstr ""
+
+#: comments.php:37
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr ""
+
+#: loop.php:124
+msgid "Author Archives: "
+msgstr ""
+
+#: loop.php:127
+msgid "No posts for current author"
+msgstr ""
+
+#: search.php:23
+msgid "Search Results"
+msgstr ""
+
+#: search.php:48
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: single.php:574 template-contact.php:69
+msgid "Sorry, no posts matched your criteria."
+msgstr ""

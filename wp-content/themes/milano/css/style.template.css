@@ -1,0 +1,963 @@
+.main_menu .sf-menu2{
+	padding: $ml_main_menu_top_padding 0 0;
+	overflow: hidden;
+}
+
+/* ====================== COLORS OPTIONS ============= */
+
+body{
+	color: #79797a;
+}
+
+.header_content{
+	background-color: $ml_top_line_background_color;
+}
+.header_content .inner{
+	color: $ml_top_line_text_color;
+}
+
+.header_content a{
+	color: $ml_link_color;
+}
+.header_content a:hover{
+	color: $ml_header_link_color_on_hover;
+}
+
+footer>.inner{
+	background-color: $ml_footer_background_color;
+}
+
+footer .footer_menu a{
+	color: $ml_footer_menu_text_color;
+}
+
+footer .footer_menu a:hover, footer .footer_menu .current-menu-item a{
+	background-color: $ml_footer_menu_background_color_on_hover;
+	color: $ml_footer_menu_text_color_on_hover;
+}
+
+footer .footer_text{
+	color: $ml_footer_text_color;
+}
+
+footer .footer_text a{
+	color: $ml_footer_link_color;
+}
+footer .footer_text a:hover{
+	color: $ml_footer_link_color_on_hover;
+}
+
+footer .privacy{
+	color: $ml_copyright_text_color;
+}
+
+footer .privacy a{
+	color: $ml_copyright_link_color;
+}
+footer .privacy a:hover{
+	color: $ml_copyright_link_color_on_hover;
+}
+
+.logo a span{
+	color: $ml_logo_text_color;
+	font-family: $ml_logo_gfont,"Arial", sans-serif;
+	font-style: $ml_logo_font_style;
+	font-weight: $ml_logo_font_weight;
+	font-size: $ml_logo_font_size;
+}
+
+.solid_box,
+.page .contact_box,
+.page .solid_box,
+.page .solid_box:after,
+.blog .solid_box:after,
+.page .post_track.open:after,
+.page .ui-tabs .ui-tabs-nav li.ui-tabs-active:after,
+.archive .solid_box:after{
+	color: $ml_content_textcolor;
+	background-color: $ml_page_color;
+}
+.page .widget-area .widget_tag_cloud a,
+.blog .widget-area .widget_tag_cloud a
+{
+	color: $ml_content_textcolor;
+}
+.blog .solid_box .widget-area:before{
+	background-color: $ml_page_color;	
+}
+#searchform input[type="text"], 
+#searchform textarea, 
+#commentform input[type="text"],
+#commentform textarea,
+.feedback input[type="text"],
+.feedback textarea,
+.widget-area textarea,
+.contactformWidget input[type="text"],
+.widget_feedburner input[type="text"],
+.widget_mailchimp input[type="text"]{
+	color: $ml_content_textcolor;
+}
+input::-webkit-input-placeholder{
+	color: $ml_content_textcolor;
+}
+input:-moz-placeholder{
+	color: $ml_content_textcolor;
+}
+textarea::-webkit-input-placeholder{
+	color: $ml_content_textcolor;
+}
+textarea:-moz-placeholder{
+	color: $ml_content_textcolor;
+}
+
+.page section a,
+body.search section a,
+.page .testimonial_author{
+	color: $ml_content_linkscolor;
+}
+.page section a:hover,
+.page section .ui-state-active>a,
+.page section .trigger.active>a,
+body.search section a:hover
+{
+	color: $ml_content_linkscolor_hover;
+}
+.page section a.more-link,
+body.search section a.more-link{
+	color: $ml_content_linkscolor_hover;
+}
+.page section a.more-link:hover,
+body.search section a.more-link:hover{
+	color: $ml_content_linkscolor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: $ml_gfont_title, "Arial", sans-serif;
+}
+
+.page .solid_box .blog_box h1, 
+.page .solid_box .blog_box h2, 
+.page .solid_box .blog_box h3, 
+.page .solid_box .blog_box h4,
+.page .solid_box .blog_box h5,
+.page .solid_box .blog_box h6,
+#slider_box .intro .title,
+body.search h1,
+body.search h2,
+body.search h3,
+body.search h4,
+body.search h5,
+body.search h6,
+.middle_menu a, 
+footer,
+.title4,
+.title2,
+.title3,
+.title6,
+.postmetadata,
+#wp-calendar caption,
+.main_menu .open_arrow,
+.carousel_categories,
+#reply-title
+{
+	font-family: $ml_gfont_title, "Arial", sans-serif;
+	color: $ml_header_textcolor;
+}
+
+
+
+.widget_feedburner button[type="submit"],
+.widget_archive ul li a,
+.widget_categories ul li a,
+.widget_meta ul li a,
+.widget_nav_menu ul li a,
+.widget_pages ul li a,
+.widget_rss ul li a,
+input.button,
+#commentform #submit,
+.widget_feedburner .button_submit,
+.content_btn,
+.button,
+.main_menu a,
+.widget-area button{
+	font-family: $ml_gfont_title, "Arial", sans-serif;
+}
+.carousel_list .title, 
+.carousel_list .title_rollover{
+	font-family: $ml_gfont_title,"Arial", sans-serif;
+}
+
+.main_bg_color{background-color: #0c0c0d;}
+.global_wrap,
+#slider_box{
+	background-color: $ml_bg_slider_color;
+}
+
+
+.bg_color1{background-color: #120c06;}
+.bg_color2,
+.main_menu .sub-menu,
+.main_menu:before{background-color: $ml_menu_background_color;}
+.bg_color4{background-color: #1d1d1e;}
+.bg_color5{background-color: #313131;}
+
+
+.nav_box .menu-item>a{color: #fff;}
+.nav_box .menu-item{background: #120c06;}
+.main_menu .sf-menu2>.menu-item>a>em, .bg_color3{background: $ml_1st_level_menu_background_color_on_hover;}
+
+
+
+
+.main_menu .menu-item>a,
+.main_menu .open_arrow span{color: $ml_1st_level_menu_text_color;}
+.main_menu button.toggle-menu em {background-color: $ml_1st_level_menu_text_color; }
+
+.main_menu .menu-item > a:hover, .main_menu .menu-item.open > a {color: $ml_1st_level_menu_text_color_on_hover;}
+
+.main_menu .sub-menu a{color: $ml_2st_level_menu_text_color;}
+.main_menu .sub-menu .sub-menu a{color:$ml_3st_level_menu_text_color;}
+
+.main_menu .sub-menu > .menu-item>a:hover, .main_menu .sub-menu > .menu-item.open>a{color: $ml_2st_level_menu_text_color_on_hover;}
+
+
+.post_box:hover .title4, .post_track.open .post_box .title4{color: #fff;}
+
+.main_menu .sub-menu li>a>em,
+.main_menu .sub-menu li.open>a>em,
+.main_menu .sub-menu li:hover>a>em,
+.main_menu .sub-menu li.open>a>em,
+.main_menu .current_page_item>a>em{color: #fff;background: $ml_2st_level_menu_background_color_on_hover;}
+.main_menu .sub-menu .menu-item.current-menu-parent>a,
+.main_menu .sub-menu .menu-item.current_page_item>a{
+	color: $ml_2st_level_menu_text_color_on_hover;
+}
+
+.main_menu .sub-menu .sub-menu li:hover>a>em,
+.main_menu .sub-menu .sub-menu li.open>a>em
+{color: #fff;}
+
+.main_menu .sub-menu .sub-menu a{color: $ml_3st_level_menu_text_color;}
+.main_menu .sub-menu .sub-menu a:hover,
+.main_menu .sub-menu .sub-menu .current-menu-item>a{color: $ml_3st_level_menu_text_color_on_hover;}
+
+/*.main_menu:before{
+	display: block;
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 200%;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}*/
+
+.sf-sub-indicator:hover,
+.non_touch_device .main_menu:hover .menu-item.open>a>.sf-sub-indicator,
+.main_menu.ihover .menu-item.open>a>.sf-sub-indicator,
+.widget_menu .menu-item.open>a>.sf-sub-indicator{
+	background-color: $ml_1st_level_menu_submenu_color_on_hover;
+}
+
+li ul .sf-sub-indicator:hover,
+.non_touch_device .main_menu:hover li ul  .menu-item.open>a>.sf-sub-indicator,
+.main_menu.ihover li ul  .menu-item.open>a>.sf-sub-indicator,
+.widget_menu li ul  .menu-item.open>a>.sf-sub-indicator{
+	background-color: $ml_2st_level_menu_submenu_color_on_hover;
+}
+
+
+.post_box.open{	color: #6e6e6f;}
+
+.close_btn{background-color:#fff;}
+
+
+.test_btn.prev{
+	background: #efefef url('../images/prev_arrow.png') 47% 6px no-repeat;}
+.test_btn.next{
+	background: #efefef url('../images/next_arrow.png') 50% 6px no-repeat;
+}
+
+
+
+/* ====================== FONTS OPTIONS ============= */
+
+body{
+	font-family: $ml_fontfamily;
+	/*font-style: $ml_fontstyle;*/
+	font-size: 13px;
+	line-height: 18px;
+}
+#content, .header_content, #slider_box {font-style: $ml_fontstyle;}
+.sf-menu a{font-size: 16px;line-height: 20px;}
+.sf-menu .menu-test-container{display: none;}
+
+.main_menu .sub-menu a{font-size: 14px;}
+
+.main_menu .sub-menu .sub-menu a{font-size: 12px;}
+
+footer{font-size: 10px;line-height: 1.23em;}
+
+
+/* bg slider */
+
+#slider_box .slide {
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	height:100%;
+	width: 100%;
+}
+
+#slider_box .slide .img{
+	height:100%;
+	width: 100%;
+	position: absolute;
+	background-position: $ml_bg_slider_background_horizontal_position $ml_bg_slider_background_vertical_position;
+	background-repeat: $ml_bg_slider_background_repeat;
+	background-color: $ml_bg_slider_color;
+
+	background-size: $ml_bg_slider_background_scale;
+}
+.slider_box .intro .title{
+
+}
+#slider_box .active{
+	z-index: 1;
+}
+
+.sub_wrap:after,
+.page .close_btn,
+.page .feedback .sub_wrap:after,
+.page .jp-play:hover,
+.page .jp-pause,
+.page .th_list_animated li:hover,
+body.search .navigation a,
+.page .testimonials .controls a
+{
+	background-color: $ml_accent_color;
+}
+
+.sub_wrap,
+.page .close_btn:after,
+.page .feedback .sub_wrap,
+.page .jp-play,
+.page .jp-play-bar,
+.page .jp-volume-bar-value,
+body.search .navigation a:after,
+.page .testimonials .controls a:hover,
+.pagination li a:hover, .pagination li .current
+{
+	background-color: $ml_accent_color_on_hover;	
+}
+
+.page .more_info{
+	color: $ml_accent_color;
+}
+.page .more_info:hover{
+	color: $ml_accent_color_on_hover;	
+}
+
+/* ===================================
+	Single Blog options Start
+   ===================================*/
+.single-post .post_box a,
+.single-post .commentlist div strong a:hover,
+.single-post .testimonial_author,
+.single-post .post_box .more-link:hover{
+	color: $ml_blog_single_link_color;
+}
+.single-post .post_box a:hover,
+.single-post .ui-state-active .post_box a,
+.single-post .post_box .trigger.active>a,
+.single-post .post_box .ui-tabs .ui-tabs-nav li.ui-tabs-active>a,
+.single-post .commentlist div strong, 
+.single-post .commentlist div strong a,
+.single-post .post_box .more-link
+{
+	color: $ml_blog_single_link_color_on_hover;
+}
+
+.single-post .post_box .postmetadata .inner{
+	background-color: $ml_blog_single_date_color;
+	color: $ml_blog_single_content_date_color;
+}
+.single-post .post_box:hover .postmetadata .inner,
+.single-post .post_track.open .post_box .postmetadata .inner{
+	color: $ml_blog_single_content_date_color_on_hover;
+}
+
+.single-post .post_box:hover .postmetadata .inner,
+.single-post .post_track.open .post_box .postmetadata .inner{
+	background-color: $ml_blog_single_date_color_on_hover;
+}
+
+.single-post .close_btn,
+.single-post .nav_btn,
+.single-post .navigation a,
+.single-post .comments-area .sub_wrap:after,
+.single-post .comment-respond .sub_wrap:after,
+.single-post .testimonials .controls a
+{
+	background-color: $ml_blog_single_post_accent_color;
+}
+.single-post #commentform #submit{
+	color: $ml_blog_single_post_accent_color;
+}
+.single-post #commentform #submit:hover{
+	color: $ml_blog_single_content_date_color_on_hover;
+}
+
+.single-post .close_btn:after,
+.single-post .nav_btn:after,
+.single-post .navigation a:after,
+.single-post .comments-area .sub_wrap,
+.single-post .comment-respond .sub_wrap,
+.single-post .th_list_animated li:hover,
+.single-post .jp-play,
+.single-post .jp-play-bar,
+.single-post .jp-volume-bar-value,
+.single-post .testimonials .controls a:hover
+{
+	background-color: $ml_blog_single_post_accent_color_on_hover;
+}
+.single-post .jp-play:hover,
+.single-post .jp-pause{
+	background-color: $ml_blog_single_post_accent_color;
+}
+
+.single-post .post_box{
+	color: $ml_blog_single_content_color;
+	background-color: $ml_blog_single_content_bgcolor;
+}
+
+.single-post .post_box.preview:hover,
+.single-post .post_track.open:after,
+.single-post .post_track.open .post_box,
+.single-post .ui-tabs .ui-tabs-nav li.ui-tabs-active:after{
+	color: $ml_blog_single_content_color_on_hover;
+	background: $ml_blog_single_content_bgcolor_on_hover;
+}
+
+
+.single-post h1,
+.single-post h2,
+.single-post h3,
+.single-post h4,
+.single-post h5,
+.single-post h6{
+	color: $ml_blog_single_title_color;
+}
+/*.comment-reply-title,*/
+.single-post .post_box:hover h1,
+.single-post .post_box:hover h2,
+.single-post .post_box:hover h3,
+.single-post .post_box:hover h4,
+.single-post .post_box:hover h5,
+.single-post .post_box:hover h6,
+.single-post .post_track.open .post_box h1,
+.single-post .post_track.open .post_box h2,
+.single-post .post_track.open .post_box h3,
+.single-post .post_track.open .post_box h4,
+.single-post .post_track.open .post_box h5,
+.single-post .post_track.open .post_box h6{
+	color: $ml_blog_single_title_color_on_hover;
+}
+
+/*.single-post .post_box:hover .postmedata,
+.single-post .post_track.open .post_box .postmedata{
+	color: $ml_blog_single_date_color_on_hover;
+}*/
+/* ===================================
+	Single Blog options END
+   ===================================*/
+
+/* ===================================
+	Classic Blog Listing Start
+   ===================================*/
+.solid_box .blog_box{
+	color: $ml_classic_blog_content_color;
+}
+.solid_box .blog_box h3,
+.solid_box .blog_box h3 a,
+body.search .solid_box h3,
+body.search .solid_box h3 a{
+	color: $ml_classic_blog_title_color;
+}
+.solid_box .blog_box li.wrapper:hover h3 a,
+body.search .solid_box .posts_list>li:hover h3 a{
+	color: $ml_classic_blog_title_color_on_hover;
+}
+
+.solid_box .blog_box .more-link,
+body.search .solid_box .more-link{
+	color: $ml_classic_blog_read_more_color;
+}
+.solid_box .blog_box .more-link:hover,
+body.search .solid_box .more-link:hover{
+	color: $ml_classic_blog_read_more_color_on_hover;
+}
+.solid_box .blog_box .posts_list li>figure a:hover:after,
+body.search .solid_box .posts_list li>figure a:hover:after{
+	background-color: $ml_classic_blog_date_color;
+}
+
+.solid_box .blog_box .postmetadata>.inner,
+body.search .solid_box .postmetadata>.inner{
+	background-color: $ml_classic_blog_date_color;
+	color: $ml_classic_blog_date_text_color;
+}
+
+.solid_box .blog_box .posts_list li:hover .postdata_rollover,
+body.search .solid_box .posts_list li:hover .postdata_rollover{
+	background-color: $ml_classic_blog_date_color_on_hover;
+	color: $ml_classic_blog_date_text_color_on_hover;
+}
+
+/* ===================================
+	Classic Blog Listing END
+   ===================================*/
+
+/* ===================================
+	Carousel Blog Listing Start
+   ===================================*/
+
+
+.carousel.blog_carousel .carousel_list .title1>.inner{
+	background-color: $ml_carousel_post_bg_color;
+	color: $ml_carousel_post_title_color;
+}
+
+.carousel.blog_carousel .carousel_list .title_rollover{
+	background-color: $ml_carousel_post_bg_color_on_hover;
+}
+
+.carousel.blog_carousel .carousel_list .title .postmetadata{
+	background-color: $ml_carousel_date_bg_color;
+}
+
+.carousel.blog_carousel .carousel_list .title .postmetadata span,
+.carousel.blog_carousel .carousel_list .title .postmetadata strong{
+	color: $ml_carousel_date_text_color;
+}
+
+.carousel.blog_carousel .carousel_list li .title_rollover .postmetadata{
+	background-color: $ml_carousel_date_bg_color_on_hover;
+}
+
+.carousel.blog_carousel .carousel_list .title_rollover .postmetadata span,
+.carousel.blog_carousel .carousel_list .title_rollover .postmetadata strong{
+	color: $ml_carousel_date_text_color_on_hover;
+}
+
+.carousel.blog_carousel .carousel_list .title_rollover>.inner{
+	background-color: $ml_carousel_post_bg_color_on_hover;
+	color: $ml_carousel_post_title_color_on_hover;
+}
+
+.carousel.blog_carousel .carousel_list .title_rollover>.inner .description{
+	color: $ml_carousel_post_content_color_on_hover;
+}
+.carousel.blog_carousel .carousel_list .rollover_title{
+	color: $ml_carousel_post_title_color_on_hover;
+}
+.carousel.blog_carousel .nav_btn{
+	background-color: $ml_blog_single_post_accent_color;
+}
+
+.blog_carousel.carousel .nav_btn:after{
+	background-color: $ml_blog_single_post_accent_color_on_hover;
+}
+
+/* ===================================
+	Carousel Blog Listing END
+   ===================================*/
+
+/* ===================================
+	Portfolio Single Post Start
+   ===================================*/
+.single-th_portfolio .post_box a,
+.single-th_portfolio .commentlist div strong a:hover,
+.single-th_portfolio .testimonial_author,
+.single-th_portfolio .post_box .more-link:hover{
+	color: $ml_portfolio_single_post_link_color;
+}
+.single-th_portfolio .post_box a:hover,
+.single-th_portfolio .post_box .trigger.active>a,
+.single-th_portfolio .post_box .ui-tabs .ui-tabs-nav li.ui-tabs-active>a,
+.single-th_portfolio .commentlist div strong,
+.single-th_portfolio .commentlist div strong a,
+.single-th_portfolio .post_box .more-link{
+	color: $ml_portfolio_single_post_link_color_on_hover;
+}
+
+.single-th_portfolio .close_btn,
+.single-th_portfolio .nav_btn,
+.single-th_portfolio .navigation a,
+.single-th_portfolio .comments-area .sub_wrap:after,
+.single-th_portfolio .comment-respond .sub_wrap:after,
+.single-th_portfolio .jp-play:hover,
+.single-th_portfolio .jp-pause,
+.single-th_portfolio .testimonials .controls a
+{
+	background-color: $ml_portfolio_single_accent_color;
+}
+.single-th_portfolio .close_btn:after,
+.single-th_portfolio .nav_btn:after,
+.single-th_portfolio .navigation a:after,
+.single-th_portfolio .comments-area .sub_wrap,
+.single-th_portfolio .comment-respond .sub_wrap,
+.single-th_portfolio .jp-play,
+.single-th_portfolio .jp-play-bar,
+.single-th_portfolio .jp-volume-bar-value,
+.single-th_portfolio .testimonials .controls a:hover
+{
+	background-color: $ml_portfolio_single_accent_color_on_hover;
+}
+
+.single-th_portfolio .post_box{
+	color: $ml_portfolio_single_post_content_color;
+	background-color: $ml_portfolio_single_post_bgcolor;
+}
+
+.single-th_portfolio .post_box.preview:hover,
+.single-th_portfolio .post_track.open:after,
+.single-th_portfolio .post_track.open .post_box,
+.single-th_portfolio .ui-tabs .ui-tabs-nav li.ui-tabs-active:after{
+	color: $ml_portfolio_single_post_content_color_on_hover;
+	background-color: $ml_portfolio_single_post_bgcolor_on_hover;
+}
+
+.single-th_portfolio h1,
+.single-th_portfolio h2,
+.single-th_portfolio h3,
+.single-th_portfolio h4,
+.single-th_portfolio h5,
+.single-th_portfolio h6{
+	color: $ml_portfolio_single_post_title_color;
+}
+/*.comment-reply-title,*/
+.single-th_portfolio .post_box:hover h1,
+.single-th_portfolio .post_box:hover h2,
+.single-th_portfolio .post_box:hover h3,
+.single-th_portfolio .post_box:hover h4,
+.single-th_portfolio .post_box:hover h5,
+.single-th_portfolio .post_box:hover h6,
+.single-th_portfolio .post_track.open .post_box h1,
+.single-th_portfolio .post_track.open .post_box h2,
+.single-th_portfolio .post_track.open .post_box h3,
+.single-th_portfolio .post_track.open .post_box h4,
+.single-th_portfolio .post_track.open .post_box h5,
+.single-th_portfolio .post_track.open .post_box h6{
+	color: $ml_portfolio_single_post_title_color_on_hover;
+}
+
+/* ===================================
+	Portfolio Single Post END
+   ===================================*/
+
+/* ===================================
+	Portfolio Carousel Start
+   ===================================*/
+
+/*.portfolio-carousel*/
+
+.portfolio-carousel .title .inner{
+	background: $ml_portfolio_post_bgcolor;
+	color: $ml_portfolio_post_title_color;
+}
+
+.portfolio-carousel .title_rollover{
+	background: $ml_portfolio_post_bgcolor_on_hover;
+	color: $ml_portfolio_post_title_color_on_hover;
+}
+
+.portfolio-carousel .nav_btn{
+	background-color: $ml_portfolio_single_accent_color;
+}
+
+.portfolio-carousel .nav_btn:after{
+	background-color: $ml_portfolio_single_accent_color_on_hover;
+}
+
+
+/* ===================================
+	Portfolio Carousel END
+   ===================================*/
+
+/* ===================================
+	Slideshow Carousel Start
+   ===================================*/
+.page-template-template-slideshow-php .slideshow_banner .title2 {
+	color: $ml_slideshow_title_color;
+}
+
+.page-template-template-slideshow-php .slideshow_banner{
+	background-color: $ml_slideshow_bg_color;
+	color: $ml_slideshow_text_color;
+}
+
+.page-template-template-slideshow-php .slideshow_settings{
+	background-color: $ml_slideshow_thumb_bgcolor;
+}
+
+.page-template-template-slideshow-php .timeline{
+	background-color: $ml_slideshow_timeline_color;
+}
+
+.page-template-template-slideshow-php a.nav_btn
+{
+	background-color: $ml_slideshow_nav_color;
+}
+
+.page-template-template-slideshow-php a.nav_btn:after,
+.page-template-template-slideshow-php ul.thumb_list li a span.loop em,
+.page-template-template-slideshow-php ul.thumb_list li a:after{
+	background-color: $ml_slideshow_nav_color_on_hover;
+}
+
+/* ===================================
+	Slideshow Carousel END
+   ===================================*/
+
+/* ===================================
+	BG Slideshow Start
+   ===================================*/
+
+.timeline{
+	background-color: $ml_bg_slideshow_timeline_color;
+}
+
+/* ===================================
+	BG Slideshow END
+   ===================================*/
+
+/* ===================================
+	Sidebars Start
+   ===================================*/
+
+.post_track .widget-area .widget{
+	background: $ml_sidebar_background_color;
+	color: $ml_widget_content_color;
+}
+.single-th_portfolio .widget-area .widget_tag_cloud a,
+.single-post .widget-area .widget_tag_cloud a{
+	color: $ml_widget_content_color;
+}
+
+.widget-area .widget-title, 
+.widget-area .widget-title a,
+.widget-area .widget_menu li a,
+.widget-area .widget_archive li a, 
+.widget-area .widget_categories ul li a, 
+.widget-area .widget_meta ul li a, 
+.widget-area .widget_nav_menu ul li a, 
+.widget-area .widget_pages li a, 
+.widget-area .widget_rss ul li a
+{
+	color: $ml_widget_header_color;
+}
+
+.widget-area .widget a,
+.widget-area .widget a.title:hover{
+	color: $ml_widget_link_color;
+}
+
+.flickr_badge_image a:hover:after, .widget_popular_posts li>a:hover:after, .widget_recent_posts li>a:hover:after{
+	background-color: $ml_widget_link_color;
+}
+
+.widget-area .widget a:hover,
+.widget .widget-title a,
+.widget-area .widget a.title,
+.widget_menu li:hover>a,
+.widget_menu li.current-menu-item>a,
+.widget_menu li.current_page_parent>a,
+#today>a{
+	color: $ml_widget_link_color_on_hover;
+}
+
+.widget-area .testimonials .controls a:hover{
+	background-color: $ml_widget_accent_color;
+	background-position: 50% -13px;
+}
+
+
+.widget-area .custom_menu>li:hover>a,
+.widget-area .widget_pages li:hover a,
+.widget-area li.current_page_item>a,
+.widget-area li.current_page_parent>a,
+.widget-area li.menu-item.open>a,
+.widget-area .widget_tag_cloud a:hover, 
+.widget-area .widget_meta ul li:hover a,
+.widget-area .widget_categories ul li:hover a, 
+.widget-area .widget_archive ul li:hover,
+.widget-area .sub_wrap,
+.widget-area #wp-calendar td#today,
+.widget-area .widget_tag_cloud a:hover,
+.widget-area .widget_calendar #prev a:hover,
+.widget-area .widget_calendar #next a:hover,
+.widget-area .widget_rss ul li a:hover,
+#searchform input[type="submit"], 
+.widget_search input[type="submit"]{
+	background-color: $ml_widget_accent_color;
+}
+
+.widget-area .widget_archive ul li:hover a,
+.widget-area .widget_categories ul li:hover a,
+.widget-area .widget_meta ul li:hover a,
+.widget-area .widget_nav_menu ul li:hover a,
+.widget-area .widget_pages ul li:hover a,
+.widget-area .widget_rss ul li:hover a, 
+.widget-area .custom_menu>li:hover>a,
+.widget-area .side_menu .current_page_item>a,
+.widget-area .side_menu .current_page_parent>a{
+	border-color: $ml_widget_accent_color;
+}
+
+.widget-area ul ul ul a{
+	background: none !important;
+}
+
+.widget-area .testimonial_author,
+.widget-area .custom_menu ul ul li a:hover{
+	color: $ml_widget_accent_color;
+}
+
+.widget-area .testimonials .controls a,
+.widget-area #searchform .sub_wrap:after, 
+.widget-area .widget_feedburner .sub_wrap:after,
+.widget-area .widget_calendar #prev a,
+.widget-area .widget_calendar #next a,
+.widget-area #searchform .sub_wrap:after,
+.widget-area .widget_feedburner .sub_wrap:after,
+.widget-area .sub_wrap:after,
+.widget-area .sub_wrap:after,
+#searchform input[type="submit"]:hover, 
+.widget_search input[type="submit"]:hover{
+	background-color: $ml_widget_accent_color_on_hover;
+}
+
+.widget-area #wp-calendar td#today{
+	border-color: $ml_widget_accent_color;
+}
+.widget-area .testimonials .controls a,
+.page .testimonials .controls a,
+.single-post .testimonials .controls a,
+.single-th_portfolio .testimonials .controls a{
+	background-position: 50% 6px;
+}
+.page .testimonials .controls a:hover,
+.single-post .testimonials .controls a:hover,
+.single-th_portfolio .testimonials .controls a:hover{
+	background-position: 50% -13px;
+}
+
+/**/
+
+/* ===================================
+	Sidebars END
+   ===================================*/
+
+/*.th_portfolio .post_box, .th_portfolio .post_box.preview{
+	color: $ml_portfolio_single_post_content_color;
+}
+
+.th_portfolio .open .post_box,
+.th_portfolio .post_box:hover,
+.th_portfolio .post_track.open .post_box,
+.th_portfolio .post_track .post_box.preview:hover
+{
+	color: $ml_portfolio_single_post_content_color_on_hover;
+}*/
+
+/*.th_portfolio .post_box .title4{
+	color: $ml_portfolio_single_post_title_color;
+}*/
+
+/*.th_portfolio .open .post_box .title4,
+.th_portfolio .post_box:hover .title4
+{
+	color: $ml_portfolio_single_post_title_color_on_hover;
+}*/
+
+@media only screen and (max-width: 802px) {
+	/*Single Blog*/
+	.single-post .post_box .postmetadata .inner,
+	.single-post .post_track .post_box .postmetadata .inner{
+		color: $ml_blog_single_content_date_color_on_hover;
+	}
+
+	.single-post .post_box .postmetadata .inner,
+	.single-post .post_track .post_box .postmetadata .inner{
+		background-color: $ml_blog_single_date_color_on_hover;
+	}
+	.single-post .post_box,
+	.single-post .post_box,
+	.single-post .post_track:after,
+	.single-post .post_track.open .post_box{
+		color: $ml_blog_single_content_color_on_hover;
+		background: $ml_blog_single_content_bgcolor_on_hover;
+	}
+	/*.comment-reply-title,*/
+	.single-post .post_box h1,
+	.single-post .post_box h2,
+	.single-post .post_box h3,
+	.single-post .post_box h4,
+	.single-post .post_box h5,
+	.single-post .post_box h6,
+	.single-post .post_track .post_box h1,
+	.single-post .post_track .post_box h2,
+	.single-post .post_track .post_box h3,
+	.single-post .post_track .post_box h4,
+	.single-post .post_track .post_box h5,
+	.single-post .post_track .post_box h6{
+		color: $ml_blog_single_title_color_on_hover;
+	}
+
+	/*Single portfolio*/
+	.single-th_portfolio .post_box,
+	.single-th_portfolio .post_track.open:after,
+	.single-th_portfolio .post_track.open .post_box{
+		color: $ml_portfolio_single_post_content_color_on_hover;
+		background-color: $ml_portfolio_single_post_bgcolor_on_hover;
+	}
+
+	/*.comment-reply-title,*/
+	.single-th_portfolio .post_box h1,
+	.single-th_portfolio .post_box h2,
+	.single-th_portfolio .post_box h3,
+	.single-th_portfolio .post_box h4,
+	.single-th_portfolio .post_box h5,
+	.single-th_portfolio .post_box h6,
+	.single-th_portfolio .post_track.open .post_box h1,
+	.single-th_portfolio .post_track.open .post_box h2,
+	.single-th_portfolio .post_track.open .post_box h3,
+	.single-th_portfolio .post_track.open .post_box h4,
+	.single-th_portfolio .post_track.open .post_box h5,
+	.single-th_portfolio .post_track.open .post_box h6{
+		color: $ml_portfolio_single_post_title_color_on_hover; 
+	}
+
+	/*---> Main Menu <---*/
+	.main_menu .sub-menu,
+	.main_menu .sf-menu2, 
+	.main_menu .open_arrow{background-color: $ml_menu_background_color;}
+	
+	.main_menu .open_arrow:hover,
+	.main_menu .open_arrow.active{ background-color: $ml_1st_level_menu_background_color_on_hover !important;}
+
+	/* --------> Slideshow <-----------*/
+	.page-template-template-slideshow-php .slideshow_banner{
+		background-color: $ml_slideshow_bg_color_resp;
+	}
+	.page-template-template-slideshow-php .slideshow_banner .title2{
+		color: $ml_slideshow_title_color_resp;
+	}
+}
+
