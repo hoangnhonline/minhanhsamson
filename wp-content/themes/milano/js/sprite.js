@@ -1736,7 +1736,7 @@ core.addWidgetClass({'class': 'Menu', 'definition': function ($) {
 			$this = $(this.selector);
 			$icon = $('<span>', {
 				'class': this.iconClass + ' bg_color2',
-				'html': '<span>Navigation</span>'
+				'html': '<span>MENU</span>'
 			});
 			$this.append($icon);
 

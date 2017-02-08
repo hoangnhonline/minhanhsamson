@@ -322,7 +322,6 @@ img{
 /* -------------------------- SUB 2 level ----------------------------------- */
 .main_menu .sub-menu a,
 .widget_menu .sub-menu a{
-	text-transform: lowercase;
 	padding: 12px 20px 11px;
 	position: relative;
 	z-index: 2;
@@ -4119,7 +4118,7 @@ h6{
 	margin-left: -3px;
 }
 .title3{
-	font-size: 56px;
+	font-size: 30px;
 	line-height: 0.9em;
 	/*color: #fff;*/
 	margin-bottom: 7px;
